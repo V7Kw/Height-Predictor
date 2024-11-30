@@ -1,0 +1,115 @@
+.Panel {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+
+.gender-selection {
+    display: flex;
+    gap: 10px;
+    left: 50%;
+    top: 140px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.gender-btn {
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.gender-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Default inactive state */
+.gender-btn.active {
+    color: white;
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0 0 0 0;
+    top: 90px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.Configs {
+    display: flex;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    gap: 5px;
+    top: 250px;
+    left: 50%;
+}
+
+.ConfigBox {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    height: 25px;
+
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#CurAge {
+    width: 40px;
+}
+
+#CurHeight {
+    width:60px;
+}
+
+.new {
+    top:210px;
+}
+
+.PredictBTN {
+    border: 2px solid #3a5eef;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #173fc0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 200px;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 320px;
+    left: 50%;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.PredictBTN:hover {
+    width: 220px;
+    box-shadow: 0px 0px 10px 0px #173fc0;
+}

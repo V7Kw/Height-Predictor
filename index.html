@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Height Predictor | V7K</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="Panel">
+            <h1>Height Predictor V2</h1>
+            <h2>Select your Gender</h2>
+            <div class="gender-selection">
+                <button id="male-btn" class="gender-btn" onclick="selectGender('male')">Male</button>
+                <button id="female-btn" class="gender-btn" onclick="selectGender('female')">Female</button>
+            </div>
+            <div class="Configs">
+                <input type="number" placeholder="Age" class="ConfigBox" id="CurAge" max="">
+                <input type="number" placeholder="Height" class="ConfigBox" id="CurHeight" max="" >
+            </div>
+
+            <h2 class="new">Current</h2>
+
+            <button class="PredictBTN" onclick="predict()">Predict!</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
